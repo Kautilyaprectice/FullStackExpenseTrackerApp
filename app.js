@@ -8,7 +8,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.use('/expense',expenseRouter);
+app.use('/expenses',expenseRouter);
 
 (async () => {
     try {
